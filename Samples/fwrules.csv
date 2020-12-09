@@ -1,0 +1,21 @@
+Name,Group,Profile,Enabled,Action,Program,LocalAddress,RemoteAddress,Protocol,LocalPort,RemotePort
+Core Networking - Neighbor Discovery Advertisement (ICMPv6-In),Core Networking,Any,True,Allow,System,Any,Any,ICMPv6,Any,Any
+Core Networking - Neighbor Discovery Solicitation (ICMPv6-In),Core Networking,Any,True,Allow,System,Any,Any,ICMPv6,Any,Any
+Failover Cluster Manager (ICMP4-ER-In),Failover Cluster Manager,Any,True,Allow,System,Any,Any,ICMPv4,Any,Any
+Failover Cluster Manager (ICMP6-ER-In),Failover Cluster Manager,Any,True,Allow,System,Any,Any,ICMPv6,Any,Any
+Failover Clusters - Named Pipes (NP-In),Failover Clusters,Any,True,Allow,System,Any,Any,TCP,445,Any
+Failover Clusters - Remote Event Log Management (RPC),Failover Clusters,Any,True,Allow,%systemroot%\system32\svchost.exe,Any,Any,TCP,RPC,Any
+Failover Clusters - Remote Registry (RPC),Failover Clusters,Any,True,Allow,%systemroot%\system32\svchost.exe,Any,Any,TCP,RPC,Any
+Failover Clusters - Remote Service Management (RPC),Failover Clusters,Any,True,Allow,%systemroot%\system32\services.exe,Any,Any,TCP,RPC,Any
+Failover Clusters - WMI (TCP-In),Failover Clusters,Any,True,Allow,%systemroot%\system32\svchost.exe,Any,Any,TCP,Any,Any
+Failover Clusters (DCOM server FcSrv TCP-In),Failover Clusters,Any,True,Allow,%systemroot%\system32\fcsrv.exe,Any,Any,TCP,RPC,Any
+Failover Clusters (DCOM TCP-In),Failover Clusters,Any,True,Allow,%systemroot%\system32\cprepsrv.exe,Any,Any,TCP,RPC,Any
+Failover Clusters (DCOM-RPC-EPMAP-In),Failover Clusters,Any,True,Allow,%systemroot%\system32\svchost.exe,Any,Any,TCP,135,Any
+Failover Clusters (ICMP4-ER-In),Failover Clusters,Any,True,Allow,System,Any,Any,ICMPv4,Any,Any
+Failover Clusters (ICMP4-ERQ-In),Failover Clusters,Any,True,Allow,System,Any,Any,ICMPv4,Any,Any
+Failover Clusters (ICMP6-ER-In),Failover Clusters,Any,True,Allow,System,Any,Any,ICMPv6,Any,Any
+Failover Clusters (ICMP6-ERQ-In),Failover Clusters,Any,True,Allow,System,Any,Any,ICMPv6,Any,Any
+Failover Clusters (RPC),Failover Clusters,Any,True,Allow,%systemroot%\cluster\clussvc.exe,Any,Any,TCP,RPC,Any
+Failover Clusters (TCP-In),Failover Clusters,Any,True,Allow,%systemroot%\cluster\clussvc.exe,Any,Any,TCP,3343,Any
+Failover Clusters (UDP-In),Failover Clusters,Any,True,Allow,System,Any,Any,UDP,3343,3343
+Windows Remote Management (HTTP-In),Windows Remote Management,"Domain, Private",True,Allow,System,Any,Any,TCP,5985,Any

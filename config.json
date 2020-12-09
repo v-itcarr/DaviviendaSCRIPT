@@ -1,0 +1,35 @@
+﻿{"Nodos":[
+    {"Nombre":""},
+    {"Nombre":""}
+],
+
+"Cluster":[
+    	{"Nombre":"",
+	"IP":""}
+],
+
+"Monturas":[
+   	{"Nombre":"DISCO_BASE",
+	"Letra":"E"}
+],
+
+
+"Red":[
+    	{"Nombre":"LAN Davivienda",
+	"IP":["",""],
+	"Subnet": "",
+	"BindingOrder":"1",
+	"RegisterDns":"True"},
+
+    	{"Nombre":"Heartbeat",
+	"IP":["",""],
+	"Subnet": "",
+	"BindingOrder":"2",
+	"RegisterDns":"False"},
+
+    	{"Nombre":"Backup",
+	"IP":["",""],
+	"Subnet": "",
+	"BindingOrder":"3",
+	"RegisterDns":"False"}
+]}
